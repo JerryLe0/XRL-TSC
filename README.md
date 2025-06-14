@@ -27,7 +27,7 @@ This system enables urban traffic researchers and practitioners to:
 
 ## Features  
 
-![System Architecture](images/7.png)  
+![System Architecture](images/10.png)  
 ✅ Model performance metrics  
 ✅ Simulation playback of road congestion  
 ✅ Real-time lane-level queue visualizations  
