@@ -2,7 +2,7 @@
 
 This project presents an **interactive visual analytics system** to explore and explain behaviors in **Multi-Agent Reinforcement Learning (MARL)** applied to traffic signal control in urban road networks.
 
-![System Architecture](images/fig1_technical_framework.png)
+![System Architecture](images/0.png)
 *Figure 1. Technical Framework for Visual Analysis System*
 
 ## 📚 Contents
