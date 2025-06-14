@@ -25,8 +25,9 @@ This system enables urban traffic researchers and practitioners to:
 
 ---
 
-## Features
+## Features  
 
+![System Architecture](images/7.png)  
 ✅ Model performance metrics  
 ✅ Simulation playback of road congestion  
 ✅ Real-time lane-level queue visualizations  
@@ -36,8 +37,9 @@ This system enables urban traffic researchers and practitioners to:
 
 ---
 
-## System Architecture
+## System Architecture  
 
+![System Architecture](images/8.png)  
 - **Frontend:** Vue.js + NPM + D3 for visual interactivity.
 - **Backend:** Flask + Pandas for data serving and preprocessing.
 
