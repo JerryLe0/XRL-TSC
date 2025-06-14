@@ -1,0 +1,77 @@
+<template src='./NetworkView.html'></template>
+
+<script src='./NetworkView.js'></script>
+
+
+
+<style scoped>
+    .intersection-btn {
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        height: 36px;
+        width: 55px;
+        border: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .intersection-btn:hover {
+        background-color: #f0f8ff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+        border-color: #90c1e8;
+    }
+    
+    .intersection-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        background-color: #e6f2ff;
+    }
+    
+    /* Add a subtle indicator of the intersection position */
+    .intersection-btn::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+    }
+    .card {
+        margin-bottom: 10px;
+        /* height: 400px; */
+        border-radius: 5px;
+    }
+
+    .card-header {
+        font-size: 12px;
+        padding: 6px 12px;
+        height: 36px;
+    }
+
+    .card-block {
+        padding: 0px;
+        position: center 0;
+        width: 100%;
+    }
+
+    text {
+        font-weight: 300;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+        font-size: 14px;
+    }
+
+    #textContainer {
+        height: 380px;
+    }
+
+</style>

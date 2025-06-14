@@ -1,0 +1,16 @@
+<div id="lineupview">
+    <div class="card">
+        <div class="card-header">
+            <div style="position: absolute;top:6px;left:10px;">
+                <h6 style="font-size:1.2rem; font-weight: 600; font-family:'Times New Roman', Times, serif; display: inline; user-select: none;">Test Index Evaluation</h6>
+                <div style="position: absolute;top:-6px;left:560px;">
+                    <input type="button"  class="cute-btn" style="font-size:0.9rem;  font-weight: 600; font-family:'Times New Roman', Times, serif; height: 36px; width:50px;" value="Clear" v-on:click="clearLineUp"/>
+                </div>
+                <div style="position: absolute;top:-6px;left:615px;">
+                    <input type="button"  class="cute-btn" style="font-size:0.9rem; background-color: #4CAF50; color: white;  font-weight: 600; font-family:'Times New Roman', Times, serif; height: 36px; width:50px;" value="Draw" v-on:click="redrawLineUp"/>
+                </div>
+            </div>
+        </div>
+        <div class="card-block" id="lineUpContainer"></div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div id="Modelview">
+    <div class="card">
+        <div class="card-header">
+            <div style="position: absolute;top:0px;left:0px;">
+                <div class="input-group" id="inputGroup_Model">
+                <label class="input-group-text"><span style="font-size: 1rem; font-weight: 600; font-family:'Times New Roman', Times, serif;">Model</span></label>
+                <select class="form-select" id="Model_name" v-model="Model_name">
+                    <option value='MADDPG' selected>MADDPG</option>
+                    <option value='DQN'>DQN</option>
+                    <option value='Colight'>Colight</option>
+                </select>
+                </div>
+            </div>
+            <div style="position: absolute;top:0px;left:160px;">
+                <input type="button" class="cute-btn" style="font-size: 0.9rem; font-weight: 600; font-family:'Times New Roman', Times, serif; height:36px; width:60px;" value="Search" v-on:click="search"/>   <!--v-on:click 点击后执行Play函数-->
+            </div> 
+        </div>
+        <div class="card-block" id="ModelContainer"></div>
+    </div>
+</div>

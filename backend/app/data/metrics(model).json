@@ -1,0 +1,4 @@
+[{"model_name":"MADDPG","mean_episode_reward":-52.24,"mean_queue":4.29,"mean_delay":0.23, "mean_throughput": 4234},
+{"model_name":"DQN","mean_episode_reward":-50.43,"mean_queue":3.89,"mean_delay":0.17, "mean_throughput": 4375},
+{"model_name":"Colight","mean_episode_reward":-51.79,"mean_queue":3.97,"mean_delay":0.21, "mean_throughput": 4309}
+]
